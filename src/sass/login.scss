@@ -1,0 +1,25 @@
+@import 'public';
+body{
+    background-color: #f8f9fc;
+    position: relative;
+}
+#header{
+   height: 135px;
+   background-color: #00b38a;
+   padding-top: 27px;
+   padding-left: 50px;
+   img{
+       height: 25px;
+   }
+}
+
+#content{
+    width:283px;
+    height: 174px;
+    // background-color: #ffffff;
+    background-color: red;
+    position: absolute;
+    top:70px;
+    left: 50px;
+    
+}

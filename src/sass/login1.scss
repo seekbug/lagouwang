@@ -1,0 +1,17 @@
+@import 'public';
+.container{
+    width: 353px;
+   padding-top: 40px;
+    .left{
+        float: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .right{
+        float: right;
+        a{
+            font-size: 16px;
+            color: #00b38a;
+        }
+    }
+}

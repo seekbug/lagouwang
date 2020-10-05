@@ -1,0 +1,102 @@
+@import 'public';
+
+body{
+    background-color: #ffffff;
+    position: relative;
+}
+#header{
+    background-color:#00b38a;
+    font-size: 10px;
+    height: 23px;
+    color: #f7faec;
+    text-align: center;
+    line-height: 23px;
+}
+
+#login{
+    height: 22px;
+    font-size: 7px;
+    line-height: 22px;
+    span{
+        float: left;
+        color: #555555;
+        margin-left: 7px;
+    }
+    a{
+        float: right;
+        color: #00b38a;
+        margin-right: 15px;
+        width: 40px;
+        height: 15px;
+        background-color: #f5f5f5;
+        text-align: center;
+        line-height: 15px;
+        border-radius: 8px;
+        margin-top: 3px;
+    }
+}
+
+#content{
+  @include cont;
+}
+
+#contents{
+    margin-top: 30px;
+    @include cont;
+}
+
+#load{
+    border-top: solid 1px #e8e8e8;
+    height:30px;
+    background-color: #fafafa;
+    margin-top: 30px;
+    font-size:7px;
+    color: #c2cfcc;
+    text-align: center;
+    line-height: 30px;
+}
+
+#footer{
+    height: 38px;
+    font-size: 5px;
+    color: #333333;
+    text-align: center;
+    padding-top: 15px;
+    p:last-child{
+        line-height: 13px;
+        a{
+             color: #333333;
+        }
+        .first{
+            color:#999999;
+        }
+    }
+}
+
+#sousuo{
+    border-top: solid 1px #e8e8e8;  
+    background-color: #f6f6f6;
+    height: 22px;
+    display: flex;
+    line-height: 22px;
+    font-size: 8px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    .zw{
+        background:#e7f3f0;
+        text-align: center;
+        flex: 1;
+    }
+    .wd{
+        flex: 1;
+        text-align: center;
+    }
+    .ss{
+        flex: 1;
+        text-align: center;
+    }
+    a{
+        color: #d1d2cf;
+    }
+}
